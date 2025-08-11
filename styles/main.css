@@ -1,0 +1,125 @@
+main {position:relative;}
+main .weather_wrap {
+    width: 440px;
+    height: 956px;
+    margin: 0 auto;
+    /* background-color: wheat; */
+    position:relative;
+}
+main .weather_wrap .top {
+    padding:44px 30px;
+    display:flex;
+    gap:97px;
+    flex-flow: row nowrap;
+    justify-content: right;
+    position: relative;
+    z-index: 999;
+}
+main .weather_wrap .top h1 {}
+main .weather_wrap .top .reload {width: 20px; height: 20px;}
+main .weather_wrap .top .reload #change {}
+main .weather_wrap .top .reload #change img {width: 100%;}
+main .weather_wrap .location {
+    width: 200px;
+    margin:0 auto;
+    padding:178px 0;
+    text-align: center;
+}
+/* 서울 */
+main .weather_wrap .location .seoul {
+    width:440px;height: 976px;
+    background-image: url(../images/sunny_background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top:0; left:0;
+}
+main .weather_wrap .location .seoul .contents {
+    width: 200px;
+    margin:250px auto;
+}
+main .weather_wrap .location .seoul .contents .weather {width: 200px;}
+main .weather_wrap .location .seoul .contents .weather > p {width: 200px; height: 200px;}
+main .weather_wrap .location .seoul .contents .weather p img {width: 100%;}
+main .weather_wrap .location .seoul .contents > .first {
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content: space-between;
+}
+main .weather_wrap .location .seoul .contents .first > p {
+    font-size: 1.875rem;
+    font-weight: 600;
+    margin: 20px 0 80px 0;
+    color: #fff;
+}
+main .weather_wrap .location .seoul .contents .sub {
+    font-weight: 600;
+    color: #fff;
+}
+/* 부산 */
+main .weather_wrap .location .busan {
+    display: none; /* 초기상태 */
+    width:440px;height: 976px;
+    background-image: url(../images/cloudy_backrogund.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top:0; left:0;
+}
+main .weather_wrap .location .busan .contents {
+    width: 200px;
+    margin:250px auto;
+}
+main .weather_wrap .location .busan .contents .weather {width: 200px;}
+main .weather_wrap .location .busan .contents .weather p {width: 200px; height: 200px;}
+main .weather_wrap .location .busan .contents .weather p img {width: 100%;}
+main .weather_wrap .location .busan .contents .first {
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content: space-between;
+}
+main .weather_wrap .location .busan .contents .first p {
+    font-size: 1.875rem;
+    font-weight: 600;
+    margin: 20px 0 80px 0;
+    color: #fff;
+}
+main .weather_wrap .location .busan .contents .sub {
+    font-weight: 600;
+    color: #fff;
+}
+/* 제주 */
+main .weather_wrap .location .jeju {
+    display: none;
+    width:440px;height: 976px;
+    background-image: url(../images/rain_background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top:0; left:0;
+}
+main .weather_wrap .location .jeju .contents {
+    width: 200px;
+    margin:250px auto;
+}
+main .weather_wrap .location .jeju .contents .weather {width: 200px;}
+main .weather_wrap .location .jeju .contents .weather p {width: 200px; height: 200px;}
+main .weather_wrap .location .jeju .contents .weather p img {width: 100%;}
+main .weather_wrap .location .jeju .contents .first {
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content: space-between;
+}
+main .weather_wrap .location .jeju .contents .first p {
+    font-size: 1.875rem;
+    font-weight: 600;
+    margin: 20px 0 80px 0;
+    color: #fff;
+}
+main .weather_wrap .location .jeju .contents .sub {
+    font-weight: 600;
+    color: #fff;
+}

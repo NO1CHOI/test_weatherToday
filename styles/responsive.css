@@ -1,0 +1,23 @@
+/* 모바일(320~767px) 레이아웃 2행 1열 정렬
+태블릿(768~1023) 레이아웃 1행 2열 정렬
+PC(1024px~max) 레이아웃 1행 2열 정렬 */
+@media screen and (max-width:1023px){
+    main .weather_wrap .location .seoul .contents .first {
+        display:flex;
+        flex-flow:column nowrap;
+        justify-content: space-between;
+    }
+    main .weather_wrap .location .seoul .contents .first > p {
+        margin:20px 0;
+    }
+}
+@media screen and (max-width:767px){
+    main .weather_wrap .location .seoul .contents .first {
+        display:flex;
+        flex-flow:column nowrap;
+        justify-content: space-between;
+    }
+    main .weather_wrap .location .seoul .contents .first > p {
+        margin:20px 0;
+    }
+}
